@@ -10,3 +10,5 @@ total = (amount * pow(1 +(roi/100), yrs))
 interest = total - amount
 
 print('\nInterest = %0.2f' %interest)
+
+userInfo = [str(amount), str(roi),str(yrs)]
