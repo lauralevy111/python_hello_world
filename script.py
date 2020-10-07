@@ -11,4 +11,4 @@ interest = total - amount
 
 print('\nInterest = %0.2f' %interest)
 
-userInfo = [str(amount), str(roi),str(yrs)]
+accData = [str(amount), str(roi),str(yrs)]
