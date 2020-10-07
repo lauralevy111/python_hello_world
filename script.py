@@ -11,6 +11,6 @@ interest = total - amount
 
 print('\nInterest = %0.2f' %interest)
 
-accId = '00045SMA332'
+ACID= '00045SMA332'
 
-accData = [accId, str(amount), str(roi),str(yrs)]
+accData = [ACID, str(amount), str(roi),str(yrs)]
