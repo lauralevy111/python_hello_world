@@ -14,3 +14,5 @@ print('\nInterest = %0.2f' %interest)
 ACID= '00045SMA332'
 
 accData = [ACID, str(amount), str(roi),str(yrs)]
+
+print(accData)
