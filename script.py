@@ -21,4 +21,4 @@ print(accData[1])
 print(len(accData))
 
 
-accData_verbose = [ACID, str(amount), str(roi),str(yrs), bool(active), float(balance)]
+accData_verbose = [ACID, str(amount), str(roi),str(yrs)]
