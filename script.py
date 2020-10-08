@@ -18,3 +18,4 @@ accData = [ACID, str(amount), str(roi),str(yrs)]
 print(accData)
 print(accData[-1])
 print(accData[1])
+print(len(accData))
