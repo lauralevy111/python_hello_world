@@ -20,3 +20,5 @@ print(len(accData))
 
 
 accData_verbose = [ACID, str(amount), str(roi),str(yrs), bool(active), float(balance)]
+
+accData_str = str(amount)+', '+str(roi)
