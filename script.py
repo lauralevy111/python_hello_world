@@ -24,3 +24,6 @@ accData_verbose = [ACID, str(amount), str(roi),str(yrs), bool(active), float(bal
 accData_str = str(amount)+', '+str(roi)
 
 print(accData_str)
+
+//create dictionary
+accType = {'MaxYrs': 10, 'TaxRate': .06}
