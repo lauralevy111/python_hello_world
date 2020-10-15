@@ -27,3 +27,4 @@ print(accData_str)
 
 //create dictionary
 accType = {'MaxYrs': 10, 'TaxRate': .06}
+accType['min_balance']=100
