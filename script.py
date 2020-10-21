@@ -29,3 +29,7 @@ print(accData_str)
 accType = {'MaxYrs': 10, 'TaxRate': .06}
 accType['min_balance']=100
 print("the account's minimum balance may be : "+accType['min_balance'])
+
+if(accYpte['MaxYrs']>5){
+print("maturity in no less than "+accType['MaxYrs'])
+}
