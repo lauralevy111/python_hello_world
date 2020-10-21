@@ -35,4 +35,4 @@ accType['min_balance']=100
 print("the account's minimum balance may be : " + str(accType['min_balance']))
 
 if accType['MaxYrs']>5:
-    print("maturity in no less than "+accType['MaxYrs'])
+    print("maturity in no less than "+str(accType['MaxYrs']))
