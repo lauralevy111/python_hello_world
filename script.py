@@ -4,7 +4,7 @@ print("hello, world")
 #interest calculator code
 amount = float(input('Principal amount ?'))
 roi = float(input('Rate of Interest ?'))
-yrs = int(imput('Duration (no. of years) ?'))
+yrs = int(input('Duration (no. of years) ?'))
 
 total = (amount * pow(1 +(roi/100), yrs))
 interest = total - amount
@@ -30,6 +30,5 @@ accType = {'MaxYrs': 10, 'TaxRate': .06}
 accType['min_balance']=100
 print("the account's minimum balance may be : "+accType['min_balance'])
 
-if(accYpte['MaxYrs']>5){
-print("maturity in no less than "+accType['MaxYrs'])
-}
+if accYpte['MaxYrs']>5:
+    print("maturity in no less than "+accType['MaxYrs'])
