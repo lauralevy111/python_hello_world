@@ -1,6 +1,6 @@
 print("hello, world")
 
-
+MONA_LISA = str("       ____  \n        o8%8888,    \n      o88%8888888.  \n     8'-    -:8888b   \n    8'         8888  \n   d8.-=. ,==-.:888b  \n   >8 `~` :`~' d8888   \n   88         ,88888   \n   88b. `-~  ':88888  \n   888b ~==~ .:88888 \n   `88888| :::' 8888b  \n  d888           ,%888b.   \n d88%            %%%8--'-.  \n/88:.__ ,       _%-' ---  -  \n    '''::===..-'   =  --.")
 
 #interest calculator code
 amount = float(input('Principal amount ?'))
@@ -38,4 +38,4 @@ print("the account's minimum balance may be : " + str(accType['min_balance']))
 if accType['MaxYrs']>5:
     print("maturity in no less than "+str(accType['MaxYrs']))
 else :
-    print("maturity in under 5 years whooppiee!!")
+    print("maturity in under 5 years whooppiee!!"+MONA_LISA)
