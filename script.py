@@ -1,6 +1,7 @@
 print("hello, world")
 
 
+
 #interest calculator code
 amount = float(input('Principal amount ?'))
 roi = float(input('Rate of Interest ?'))
@@ -36,3 +37,5 @@ print("the account's minimum balance may be : " + str(accType['min_balance']))
 
 if accType['MaxYrs']>5:
     print("maturity in no less than "+str(accType['MaxYrs']))
+else: accType['MaxYrs']<5:
+    print("maturity in under 5 years whooppiee!!")
