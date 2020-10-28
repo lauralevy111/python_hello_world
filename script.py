@@ -43,10 +43,11 @@ accType['min_balance']=float(input("account balance?"))
 acc_bal = yrs*accType['TaxRate']+accType['min_balance']
 print("acc_bal will be :"+acc_bal)
 
+accType['net_bal']
+
+
 if accType['MaxYrs']>5:
     print("maturity in no less than "+str(accType['MaxYrs']))
 
 else :
     print("maturity in under 5 years whooppiee!!"+"\n"+MONA_LISA)
-
-    #if accType
