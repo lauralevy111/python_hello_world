@@ -39,8 +39,12 @@ print("the account's minimum balance may be : " + str(accType['min_balance']))
 
 accType['min_balance']=float(input("account balance?"))
 
+
+
 if accType['MaxYrs']>5:
     print("maturity in no less than "+str(accType['MaxYrs']))
+
+    acc_bal = yrs*accType['TaxRate']+accType['min_balance']
 else :
     print("maturity in under 5 years whooppiee!!"+"\n"+MONA_LISA)
 
