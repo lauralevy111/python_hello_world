@@ -33,9 +33,15 @@ print(accData_str)
 #create dictionary
 accType = {'MaxYrs': yrs, 'TaxRate': .06}
 accType['min_balance']=100
+
+
 print("the account's minimum balance may be : " + str(accType['min_balance']))
+
+accType['min_balance']=float(input("account balance?"))
 
 if accType['MaxYrs']>5:
     print("maturity in no less than "+str(accType['MaxYrs']))
 else :
     print("maturity in under 5 years whooppiee!!"+"\n"+MONA_LISA)
+
+    #if accType
