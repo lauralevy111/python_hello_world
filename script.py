@@ -51,3 +51,6 @@ if accType['MaxYrs']>5:
 
 else :
     print("maturity in under 5 years whooppiee!!"+"\n"+MONA_LISA)
+
+#create another dictionary
+contacts= {'Molly':'mollys email'}
