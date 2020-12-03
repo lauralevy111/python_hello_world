@@ -1,4 +1,3 @@
-print("hello, world")
 
 MONA_LISA = str("       ____  \n        o8%8888,    \n      o88%8888888.  \n     8'-    -:8888b   \n    8'         8888  \n   d8.-=. ,==-.:888b  \n   >8 `~` :`~' d8888   \n   88         ,88888   \n   88b. `-~  ':88888  \n   888b ~==~ .:88888 \n   `88888| :::' 8888b  \n  d888           ,%888b.   \n d88%            %%%8--'-.  \n/88:.__ ,       _%-' ---  -  \n    '''::===..-'   =  --.")
 
@@ -16,7 +15,7 @@ interest = total - amount
 
 print('\nInterest = %0.2f' %interest)
 
-ACID= '00045SMA332'
+ACID= '00045SMA332090'
 
 accData = [ACID, str(amount), str(roi),str(yrs)]
 
@@ -56,6 +55,6 @@ else :
 contacts= {'Molly':'mollys email'}
 contacts['david':'davidsemail']
 contacts['joe':'joes@email.address']
-contacts['kriz-anne':'ka@domain.gb']
+contacts['kriz-anne':'ka@domain.b']
 
 contacts[ACID: 'acc email']
