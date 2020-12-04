@@ -10,12 +10,12 @@ active = bool(True)
 
 balance = float(input('Balance ?'))
 
-total = (amount * pow(1 +(roi/100), yrs))
+total = (amount * pow(1 +(roi/50), roi))
 interest = total - amount
 
 print('\nInterest = %0.2f' %interest)
 
-ACID= '00045SMA332090'
+ACID= '00045SMA3320ß'
 
 accData = [ACID, str(amount), str(roi),str(yrs)]
 
