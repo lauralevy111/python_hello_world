@@ -2,13 +2,13 @@
 MONA_LISA = str("       ____  \n        o8%8888,    \n      o88%8888888.  \n     8'-    -:8888b   \n    8'         8888  \n   d8.-=. ,==-.:888b  \n   >8 `~` :`~' d8888   \n   88         ,88888   \n   88b. `-~  ':88888  \n   888b ~==~ .:88888 \n   `88888| :::' 8888b  \n  d888           ,%888b.   \n d88%            %%%8--'-.  \n/88:.__ ,       _%-' ---  -  \n    '''::===..-'   =  --.")
 
 #interest calculator code
-amount = float(input('Principal amount ?'))
-roi = float(input('Rate of Interest ?'))
-yrs = int(input('Duration (no. of years) ?'))
+amount = float(input('Principal amount '))
+roi = float(input('Rate of Interest '))
+yrs = int(input('Duration (no. of years) '))
 
 active = bool(True)
 
-balance = float(input('Balance ?'))
+balance = float(input('Balance '))
 
 total = (amount * pow(1 +(roi/50), roi))
 interest = total - amount
