@@ -7,6 +7,7 @@ roi = float(input('Rate of Interest '))
 yrs = int(input('Duration (no. of years) '))
 
 active = bool(True)
+active = False  
 
 balance = float(input('Balance '))
 
