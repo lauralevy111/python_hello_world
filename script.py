@@ -7,11 +7,11 @@ roi = float(input('Rate of Interest '))
 yrs = int(input('Duration (no. of years) '))
 
 active = bool(True)
-active = False  
+active = False
 
 balance = float(input('Balance '))
 
-total = (amount * pow(1 +(roi/50), roi))
+total = (amount /pow(1 +(roi/50), roi))
 interest = total - amount
 
 print('\nInterest = %0.2f' %interest)
