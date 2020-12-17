@@ -54,8 +54,7 @@ else :
 
 #create another dictionary
 contacts= {'Molly':'mollys email'}
-contacts['david':'davidsemail']
-contacts['joe':'joes@email.address']
 contacts['kriz-anne':'ka@domain.b']
+contacts['DollyParton':'DollyParton@dollywood.edu']
 
 contacts[ACID: 'acc email']
