@@ -34,6 +34,8 @@ print(accData_str)
 accType = {'MaxYrs': yrs, 'TaxRate': .06}
 accType['min_balance']=100
 
+#create second dictionary
+
 
 print("the account's minimum balance may be : " + str(accType['min_balance']))
 
