@@ -37,6 +37,7 @@ accType['min_balance']=100
 #create second dictionary
 currency = 'euro'
 exchangeRate = {'Currency': currency , 'exchangeRate':2}
+exchangeRate['peso']=10
 
 print("the account's minimum balance may be : " + str(accType['min_balance']))
 
