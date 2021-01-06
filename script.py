@@ -60,5 +60,7 @@ else :
 contacts= {'Molly':'mollys email'}
 contacts['kriz-anne':'ka@domain.b']
 contacts['DollyParton':'DollyParton@dollywood.edu']
+contacts['denny':'denny@gmail.edu']
+
 
 contacts[ACID: 'acc email']
