@@ -64,3 +64,5 @@ contacts['denny':'denny@gmail.edu']
 contacts['johnny cash':'johnny@cash.uk']
 
 contacts[ACID: 'acc email']
+
+print("contact info = " + str(contacts['DollyParton']))
