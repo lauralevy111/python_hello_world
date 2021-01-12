@@ -66,5 +66,6 @@ contacts['johnny cash':'johnny@cash.uk']
 contacts[ACID: 'acc email']
 
 for x in contacts
+    if x.len()>8
 
 print("contact info = " + str(contacts['DollyParton']))
