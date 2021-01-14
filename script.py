@@ -67,7 +67,7 @@ contacts[ACID: 'acc email']
 
 namelist =  ["Molly","kriz-anne","DollyParston","denny","johnny cash"]
 
-for x in namelist
+for name in namelist
     email = str(contacts[x])
     if email.len=>8
         print(x+" is long")
