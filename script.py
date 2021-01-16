@@ -72,6 +72,6 @@ for name in namelist
     email_Leng = int(len(email))
     if email_Leng=>8
         print(name+" is long")
-        print("len = "+len(name))
+        print("len = "+email_Leng)
 
 print("contact info = " + str(contacts['DollyParton']))
