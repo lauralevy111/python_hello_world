@@ -74,4 +74,6 @@ for name in namelist
         print(name+" is long")
         print("len = "+email_Leng)
 
+
+dolly_str = str(contacts['DollyParton'])
 print("contact info = " + str(contacts['DollyParton']))
