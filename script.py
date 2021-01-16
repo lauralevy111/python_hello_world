@@ -76,4 +76,4 @@ for name in namelist
 
 
 dolly_str = str(contacts['DollyParton'])
-print("contact info = " + str(contacts['DollyParton']))
+print("contact info = " + dolly_str)
