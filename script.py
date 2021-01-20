@@ -70,6 +70,7 @@ namelist =  ["Molly","kriz-anne","DollyParston","denny","johnny cash"]
 for name in namelist
     email = str(contacts[x])
     email_Leng = int(len(email))
+    maxLen= int(88)
     if email_Leng=>88
         print(name+" is long)
 
