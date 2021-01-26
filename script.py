@@ -64,7 +64,7 @@ contacts['Johnny Cash':'johnny@cash.uk']
 
 contacts[ACID: 'acc email']
 
-namelist =  ["Molly Levy","Kriz-Anne","DollyParston",    "johnny cash"]
+namelist =  ["Molly Levy","Kriz-Anne Caprino","DollyParston",    "johnny cash"]
 
 for name in namelist
     email = str(contacts[x])
