@@ -57,14 +57,14 @@ else :
     print("maturity in under 5 years whooppiee!!"+"\n"+MONA_LISA)
 
 #create another dictionary
-contacts= {'Molly':'mollys email'}
+contacts= {'Molly Levy':'mollys email'}
 contacts['Kriz-Anne':'ka@domain.b']
 contacts['DollyParton':'DollyParton@dollywood.edu']
 contacts['Johnny Cash':'johnny@cash.uk']
 
 contacts[ACID: 'acc email']
 
-namelist =  ["Molly","Kriz-Anne","DollyParston",    "johnny cash"]
+namelist =  ["Molly Levy","Kriz-Anne","DollyParston",    "johnny cash"]
 
 for name in namelist
     email = str(contacts[x])
