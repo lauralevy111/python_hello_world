@@ -60,11 +60,11 @@ else :
 contacts= {'Molly':'mollys email'}
 contacts['kriz-anne':'ka@domain.b']
 contacts['DollyParton':'DollyParton@dollywood.edu']
-contacts['johnny cash':'johnny@cash.uk']
+contacts['Johnny Cash':'johnny@cash.uk']
 
 contacts[ACID: 'acc email']
 
-namelist =  ["Molly","kriz-anne","DollyParston","johnny cash"]
+namelist =  ["Molly","kriz-anne","DollyParston",    "johnny cash"]
 
 for name in namelist
     email = str(contacts[x])
