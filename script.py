@@ -54,7 +54,7 @@ if accType['MaxYrs']>5:
     print("maturity in no less than "+str(accType['MaxYrs']))
 
 else :
-    print("maturity in under 5 years whooppiee!!"+"\n"+MONA_LISA)
+    print("maturity in under 5 years ")#whooppiee!!"+"\n"+MONA_LISA)
 
 #create another dictionary
 contacts= {'Molly Levy':'mollys email'}
