@@ -58,7 +58,7 @@ else :
 
 #create another dictionary
 contacts= {'Molly Levy':'mollys email'}
-contacts['Kriz-Anne Caprino':'ka@domain.b']
+contacts['KrizxAnne Caprino':'ka@domain.b']
 contacts['Dolly Parton':'DollyParton@dollywood.edu']
 contacts['Johnny Cash':'johnny@cash.uk']
 
