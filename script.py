@@ -35,7 +35,7 @@ accType = {'MaxYrs': yrs, 'TaxRate': .06}
 accType['min_balance']=100
 
 #create second dictionary
-currency = euro
+currency = peso
 exchangeRate = {'Currency': currency , 'exchangeRate':2}
 exchangeRate['euro']=1.3
 exchangeRate['peso']=10
