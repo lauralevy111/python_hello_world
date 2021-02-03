@@ -51,8 +51,6 @@ accType['net_bal']
 accType['net_bal'] = yrs*accType['TaxRate']+accType['min_balance']*rate
 print("acc_bal will be :"+accType['net_bal'] )
 
-
-
 if accType['MaxYrs']>5:
     print("maturity in no less than "+str(accType['MaxYrs']))
 
