@@ -48,7 +48,7 @@ accType['min_balance']=float(input("account balance?"))
 
 accType['net_bal']
 
-accType['net_bal'] = yrs*accType['TaxRate']+accType['min_balance']
+accType['net_bal'] = yrs*accType['TaxRate']+accType['min_balance']*rate
 print("acc_bal will be :"+accType['net_bal'] )
 
 
