@@ -39,7 +39,7 @@ currency = peso
 exchangeRate = {'Currency': currency , 'exchangeRate':2}
 exchangeRate['euro']=1.3
 exchangeRate['peso']=10
-exchangeRate['yen']=105.9
+exchangeRate['yen']=110
 rate =  currency
 
 print("the account's minimum balance may be : " + str(accType['min_balance']))
