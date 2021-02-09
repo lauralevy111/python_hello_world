@@ -58,7 +58,7 @@ else :
     print("maturity in under 5 years ")#whooppiee!!"+"\n"+MONA_LISA)
 
 
-if accType[net_bal]>35:
+if accType['net_bal']>35:
 else:
 
 #create another dictionary
