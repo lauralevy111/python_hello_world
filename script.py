@@ -59,7 +59,9 @@ else :
 
 
 if accType['net_bal']>35:
+    print("net bal is greater than "+str(accType['net_bal']))
 else:
+
 
 #create another dictionary
 contacts= {'Molly Levy':'mollys email'}
