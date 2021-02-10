@@ -6,6 +6,11 @@ amount = float(input('Principal amount '))
 roi = float(input('Rate of Interest '))
 yrs = int(input('Duration (no. of years) '))
 
+if yrs = 1:
+    pr
+else:
+    pr
+
 active = bool(True)
 active = False
 
