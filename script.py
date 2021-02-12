@@ -8,6 +8,7 @@ yrs = int(input('Duration (no. of years) '))
 
 if yrs = 1:
     print("yrs = one")
+    yrs = int(input('Duration (no. of years) '))
 else:
     print("yrs = "+yrs)
 
