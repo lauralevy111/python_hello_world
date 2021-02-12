@@ -7,9 +7,9 @@ roi = float(input('Rate of Interest '))
 yrs = int(input('Duration (no. of years) '))
 
 if yrs = 1:
-    pr
+    print("yrs = one")
 else:
-    pr
+    print("yrs = "+yrs)
 
 active = bool(True)
 active = False
